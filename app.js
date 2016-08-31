@@ -11,6 +11,7 @@ var app = express();
 var user = require('./routes/user');
 
 var bodyParser = require('body-parser')
+var abstest = 'test';
  
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
