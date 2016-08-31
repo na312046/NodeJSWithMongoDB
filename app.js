@@ -11,7 +11,7 @@ var app = express();
 var user = require('./routes/user');
 
 var bodyParser = require('body-parser')
-var test = '';
+var test = 'agsfhasg';
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true
